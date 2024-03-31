@@ -18,19 +18,20 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Libre Franklin', sans-serif !important;
+  text-align:center !important;
 }
 
 p {
   font-family: 'Libre Franklin', sans-serif !important;
+  padding:10px 0 10px 0 !important;
 }
 
-input{
-  margin:0 auto;
-  justify-content:center;
-  text-align:center;
+input, #s, .post-card, .wp-block-search__inside-wrapper, #search, .widget{
+  max-width:300px !important;
+  margin:0 auto !important;
+  justify-content:center !important;
+  text-align:center !important;
 }
-
-
 
  .menu a:hover{
     color: rgb(105, 255, 108);
@@ -89,7 +90,7 @@ input{
     padding-inline-start: 0;
     margin-bottom: 0;
     padding-bottom: 20px;
-    background-color: #85C1E9;
+    background-color: #b5cedf;
 }
 
 .menu li {
@@ -103,6 +104,10 @@ input{
     justify-content: center;
 }
 
+li{
+  list-style-type: none;
+}
+
 footer {
   text-align: center;
   background-color: #ECF0F1;
@@ -112,7 +117,7 @@ footer {
 .Banff-head {
   padding-top: 10px;
   margin-bottom: 0;
-  background-color: #85C1E9;
+  background-color:rgb(181, 206, 223);
 }
 
 h2 {
@@ -129,7 +134,7 @@ h2 {
 }
 
 body {
-  background-color: #138D75 !important;
+  background-color: #90a598 !important;
 }
 
 * {
@@ -144,7 +149,7 @@ h3 {
 .template-part{
   text-align:center;
   justify-content:center;
-  background-color: #b5cedf;
+  background-color: rgb(181, 206, 223);
   padding:20px 0 20px 0;
 }
 
@@ -209,7 +214,7 @@ text-align: center;
 
 /* icons */
 .social-icons {
-  background-color: #85C1E9;
+  background-color: rgb(181, 206, 223);;
   text-align: right;
   padding: 10px;
 }

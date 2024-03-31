@@ -18,7 +18,7 @@ if ( is_active_sidebar( 'header-widget-area' ) ) :
     dynamic_sidebar( 'header-widget-area' );
 endif;
 ?>
-        <h1 class="Banff-head">Banff</h1>
+        <h1 class="Banff-head"> Welcome to Banff!</h1>
         <?php wp_nav_menu(); ?>
     <div class="social-icons">
         <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
