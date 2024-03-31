@@ -3,6 +3,10 @@ get_header();
 get_template_part('part', 'hero');
 ?>
 
+<?php
+add_template_part_call()
+?>
+
 <h1 class="text-center">This Is My Homepage</h1>
 <img class="water-pic" src="<?php echo get_theme_file_uri('assets/water.jpg') ?>">
 

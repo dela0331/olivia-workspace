@@ -3,6 +3,11 @@ function banff_website_setup() {
 	add_theme_support( 'wp-block-styles' );
 }
 
+function add_template_part_call(){
+	echo '<div class="template-part"><h4>Call us</h4></br><p>1-800 555 5555</p></div>';
+	echo '<div class="template-part"><h4>Or track us down!</h4></br><p>51.1784° N, 115.5708° W</p></div>';
+}
+
 function enqueue_bootstrap() {
 	wp_enqueue_style( 'bootstrap-css', get_theme_file_uri('/css/bootstrap.min.css' ));
 
